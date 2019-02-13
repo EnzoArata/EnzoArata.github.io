@@ -1,0 +1,28 @@
+.enzoPad{
+
+	padding: 50px;
+}
+.enzoPad2{
+	padding: 5px;
+}
+
+.gradient1{
+	background: #74777f;
+}
+
+.gradient2{
+	background: #666;
+}
+.gradient3{
+	background: #434447;
+}
+.gradient4{
+	background: #9c9ea3;
+}
+body{
+ padding-top: 50px; 
+}
+footer{
+	color: white;
+}
+
