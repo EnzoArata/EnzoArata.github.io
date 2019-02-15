@@ -19,6 +19,28 @@
 .gradient4{
 	background: #9c9ea3;
 }
+.gradient5{
+	background: #16253d;
+}
+.gradient6{
+	background:#547562;
+}
+
+.imgCrop{
+	
+  border-radius: 100px;
+
+}
+
+.extraHeight{
+	height: 670px;
+}
+
+.filler{
+	height: 40px;
+}
+
+}
 body{
  padding-top: 50px; 
 }
