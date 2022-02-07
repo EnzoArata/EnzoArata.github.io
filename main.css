@@ -20,14 +20,29 @@
 	background: #9c9ea3;
 }
 .gradient5{
-	background: #16253d;
+	background: #46484a;
 }
 .gradient6{
-	background:#547562;
+	background:#b9bbbd;
+}
+
+#myjumbo{
+	height: 1000px;
+	color: black;
+	background-image: url('images/enzoandgromit.jpg');
+	background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	font-size: large;
+}
+
+#page2{
+	border-radius: 100px;
+	width: 800px;
 }
 
 .imgCrop{
-	
+
   border-radius: 100px;
 
 }
@@ -42,9 +57,8 @@
 
 }
 body{
- padding-top: 50px; 
+ padding-top: 50px;
 }
 footer{
 	color: white;
 }
-
