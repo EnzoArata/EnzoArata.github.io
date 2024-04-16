@@ -27,9 +27,9 @@
 }
 
 #myjumbo{
-	height: 1000px;
+	height: 1200px;
 	/* color: white; */
-	background-image: url('images/enzoandgromit.jpg');
+	background-image: url('images/2024.jpg');
 	background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,4 +67,17 @@ body{
 }
 footer{
 	color: white;
+}
+
+.text-box {
+    background-color: rgba(97, 97, 97, 0.5); /* Adjust opacity to your preference */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners for better appearance */
+}
+
+.smaller-image {
+    max-height: 600px; /* Adjust the maximum height as needed */
+    width: auto; /* Ensure the width adjusts proportionally */
+    margin: 0 auto; /* Center the image horizontally */
+	display: block;
 }
