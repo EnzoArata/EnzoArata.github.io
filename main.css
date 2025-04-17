@@ -181,18 +181,22 @@ footer a:hover {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 10px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border-radius: 15px;
+    padding: 3rem 2rem;
     margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .hero-section h1 {
-    color: #2c3e50;
+    color: white;
     font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .hero-section .lead {
-    color: #6c757d;
+    color: rgba(255,255,255,0.9);
     font-weight: 400;
 }
 
@@ -219,18 +223,22 @@ footer a:hover {
 
 /* Projects Page */
 .projects-header {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-radius: 10px;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+    border-radius: 15px;
+    padding: 3rem 2rem;
     margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .projects-header h1 {
-    color: #2c3e50;
+    color: white;
     font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 .projects-header .lead {
-    color: #6c757d;
+    color: rgba(255,255,255,0.9);
 }
 
 .card {
@@ -404,11 +412,19 @@ footer a:hover {
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     color: white;
     border-radius: 15px;
+    padding: 3rem 2rem;
     margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .devlog-header h1 {
+    color: white;
+    font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.devlog-header .lead {
+    color: rgba(255,255,255,0.9);
 }
 
 /* Dev Log Navigation */
