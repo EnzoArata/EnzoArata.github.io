@@ -47,16 +47,16 @@
 		<main class="container mt-5 pt-5">
 			<section class="devlog-header text-center py-5">
 				<h1 class="display-4 fw-bold mb-4">Game Development Log</h1>
-				<p class="lead text-muted">Follow the development journey of my latest game project</p>
+				<p class="lead shadow">Follow the development journey of my latest game project</p>
 			</section>
 
 			<!-- Quick Navigation -->
 			<div class="devlog-nav mb-5">
 				<div class="d-flex justify-content-center flex-wrap gap-2">
 					<a href="#devlog1" class="btn btn-outline-primary">Dev Log #1</a>
-					<a href="#devlog2" class="btn btn-outline-primary">Dev Log #2</a>
+					<!-- <a href="#devlog2" class="btn btn-outline-primary">Dev Log #2</a>
 					<a href="#devlog3" class="btn btn-outline-primary">Dev Log #3</a>
-					<a href="#devlog4" class="btn btn-outline-primary">Dev Log #4</a>
+					<a href="#devlog4" class="btn btn-outline-primary">Dev Log #4</a> -->
 				</div>
 			</div>
 
@@ -67,20 +67,46 @@
 					<div class="card shadow-sm">
 						<div class="card-body p-4">
 							<div class="d-flex justify-content-between align-items-center mb-3">
-								<h2 class="card-title h3">Dev Log #1: Project Kickoff</h2>
-								<span class="badge bg-primary">March 15, 2024</span>
+								<h2 class="card-title h3">Dev Log #1: Project Kickoff / Announcement</h2>
+								<span class="badge bg-primary">April 17, 2025</span>
 							</div>
 							<div class="row g-4">
 								<div class="col-md-6">
-									<img src="images/devlog1.png" class="img-fluid rounded" alt="Dev Log 1 Screenshot">
+									<div id="devlog1Carousel" class="carousel slide" data-bs-ride="carousel">
+										<div class="carousel-inner rounded">
+											<div class="carousel-item active">
+												<img src="images/Game/04_17_2025/1.PNG" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Dev Log 1 Screenshot 1">
+											</div>
+											<div class="carousel-item">
+												<img src="images/Game/04_17_2025/2.PNG" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Dev Log 1 Screenshot 2">
+											</div>
+											<div class="carousel-item">
+												<img src="images/Game/04_17_2025/3.PNG" class="d-block w-100" style="height: 400px; object-fit: cover;" alt="Dev Log 1 Screenshot 3">
+											</div>
+										</div>
+										<button class="carousel-control-prev" type="button" data-bs-target="#devlog1Carousel" data-bs-slide="prev">
+											<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Previous</span>
+										</button>
+										<button class="carousel-control-next" type="button" data-bs-target="#devlog1Carousel" data-bs-slide="next">
+											<span class="carousel-control-next-icon" aria-hidden="true"></span>
+											<span class="visually-hidden">Next</span>
+										</button>
+									</div>
 								</div>
 								<div class="col-md-6">
-									<p class="card-text">Today marks the beginning of an exciting new game development journey. I've set up the basic Unity project structure and started working on the core mechanics. The initial focus is on creating a solid foundation for the game's physics and movement systems.</p>
-									<p class="card-text">Key achievements:</p>
+									<p class="card-text">I have alwyas loved playing games and over the years I have spent time developing games but dont really have much to show for it. 
+										I was hit with some inspiration to finally finish a project on my own as a solo developer. So fuck it I started this project. The direction of the game isnt super clear at the moment,
+										but it will be a multiplayer game with horror elements and a focus on exploration/extraction. I have been a bit inspired by Indiana Jones and more recently from reading 
+										"King Solomon's Mines" by H. Rider Haggard and "The Lost City of Z" by David Grann.
+									</p>
+									<p class="card-text">Key achievements so far:</p>
 									<ul class="list-group list-group-flush mb-3">
-										<li class="list-group-item">✓ Project setup and version control</li>
-										<li class="list-group-item">✓ Basic character controller</li>
-										<li class="list-group-item">✓ Initial level design</li>
+										<li class="list-group-item">✓ Playable Character ~ With working health and stamina</li>
+										<li class="list-group-item">✓ Basic item mechanics ~ Working Inventory system and backpack plus a working flashlight</li>
+										<li class="list-group-item">✓ Expanded game mechanics ~ Item pick up/drop, loot objects to collect, interactable objects</li>
+										<li class="list-group-item">✓ Basic Traps ~ Triggerable pressure plate that can activate traps (a boulder so far)</li>
+										<li class="list-group-item">✓ Death Mechanic ~ Player can die from taking damage. Triggers ragdoll, spotlight, and camera change.</li>
 									</ul>
 								</div>
 							</div>
@@ -89,7 +115,7 @@
 				</article>
 
 				<!-- Dev Log 2 -->
-				<article id="devlog2" class="devlog-entry mb-5">
+				<!-- <article id="devlog2" class="devlog-entry mb-5">
 					<div class="card shadow-sm">
 						<div class="card-body p-4">
 							<div class="d-flex justify-content-between align-items-center mb-3">
@@ -112,67 +138,16 @@
 							</div>
 						</div>
 					</div>
-				</article>
+				</article> -->
 
-				<!-- Dev Log 3 -->
-				<article id="devlog3" class="devlog-entry mb-5">
-					<div class="card shadow-sm">
-						<div class="card-body p-4">
-							<div class="d-flex justify-content-between align-items-center mb-3">
-								<h2 class="card-title h3">Dev Log #3: Level Design</h2>
-								<span class="badge bg-primary">March 29, 2024</span>
-							</div>
-							<div class="row g-4">
-								<div class="col-md-6">
-									<img src="images/devlog3.png" class="img-fluid rounded" alt="Dev Log 3 Screenshot">
-								</div>
-								<div class="col-md-6">
-									<p class="card-text">This week's focus was on level design and environment creation. I've created the first playable level and started implementing the game's visual style. The level features various obstacles and challenges that test the player's skills.</p>
-									<p class="card-text">Key features:</p>
-									<ul class="list-group list-group-flush mb-3">
-										<li class="list-group-item">✓ First playable level</li>
-										<li class="list-group-item">✓ Environment art</li>
-										<li class="list-group-item">✓ Obstacle system</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-
-				<!-- Dev Log 4 -->
-				<article id="devlog4" class="devlog-entry mb-5">
-					<div class="card shadow-sm">
-						<div class="card-body p-4">
-							<div class="d-flex justify-content-between align-items-center mb-3">
-								<h2 class="card-title h3">Dev Log #4: Polish & Optimization</h2>
-								<span class="badge bg-primary">April 5, 2024</span>
-							</div>
-							<div class="row g-4">
-								<div class="col-md-6">
-									<img src="images/devlog4.png" class="img-fluid rounded" alt="Dev Log 4 Screenshot">
-								</div>
-								<div class="col-md-6">
-									<p class="card-text">This week was dedicated to polishing the game and optimizing performance. I've added particle effects, improved the UI, and worked on making the game run smoothly on various devices.</p>
-									<p class="card-text">Improvements:</p>
-									<ul class="list-group list-group-flush mb-3">
-										<li class="list-group-item">✓ Performance optimization</li>
-										<li class="list-group-item">✓ Visual effects</li>
-										<li class="list-group-item">✓ UI improvements</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-			</div>
+			
 		</main>
 
 		<footer class="bg-dark text-white py-4 mt-5">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-md-6 text-center text-md-start">
-						<p class="mb-0">© 2024 Enzo Arata. All rights reserved.</p>
+						<p class="mb-0">© 2025 Enzo Arata. All rights reserved.</p>
 					</div>
 					<div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
 						<a href="https://github.com/EnzoArata" class="text-white me-3" target="_blank">
